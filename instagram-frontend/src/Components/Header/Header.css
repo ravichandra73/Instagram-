@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header-container{
+    position: sticky;
+}
+.header-sub-container{
+ display: flex;   
+ flex: 1;
+}
+.header-nav-icons{
+    margin: auto;
+display: flex;
+flex: 1;
+justify-content: space-around;
+}
+.header-searchbar{
+    margin: auto;
+    display: flex;
+    flex: 2;
+}
+.header-insta-pic{
+    margin-left: 10px;
+    margin: auto;
+}
+.search-icon{
+    border: 1px solid grey;
+    margin-left: 10%;
+}
+.search-input-bar{
+    width: 80%;
+
+}
+.header-nav-icons h1{
+    text-decoration: none;
+    color: black;
+}

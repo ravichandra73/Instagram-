@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.myprofile-sub-container{
+    display: flex;
+    padding-top: 10px ;
+    padding-bottom: 10px;
+    width: 60%;
+    margin: auto;
+    justify-content: space-evenly;
+}
+.myprofile-right{
+flex: 3;
+/* border: 1px solid grey; */
+
+}
+.myprofile-myposts-header{
+    margin-left: 50%;
+}
+.myprofile-myposts{
+    width: 80%;
+    /* border: 1px solid black; */
+    margin: auto;
+}
+.myprofile-left{
+flex: 1;
+display: flex;
+flex-direction: column;
+/* border: 1px solid grey; */
+/* margin-right: 25%; */
+}
+.myprofile-first-row{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.myprofile-username{
+    font-size:xx-large;
+}
+.myprofile-edit-button{
+    font-weight: bold;
+    background-color: white;
+    border: 1px solid grey;
+    width: 20%;
+    border-radius: 5px;
+}
+.myprofile-second-row{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 35px;
+}
+.myprofile-third-row{
+    margin-top: 35px;
+    text-align: start;
+    margin-left: 10%;
+}
+.myprofile-posts, .myprofile-followers, .myprofile-following{
+    font-weight: bold;
+    font-size: xx-large;
+    border: none;
+    background-color: white;
+    justify-content: space-evenly;
+}
